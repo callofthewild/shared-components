@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "a96781c8-acbb-4acd-bac5-b53b79acd608",
+		"name": "Invoice_Rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveInvoice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Inv2\",\r\n    \"amount\": 135.0,\r\n    \"number\": \"Inv0234\",\r\n    \"receivedDate\": \"14-10-2020\",\r\n    \"type\": \"normal\",\r\n    \"vendor\": \"Vend2\",\r\n    \"comments\": \"on Hold\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/invoice/rest/saveInvoice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoice",
+						"rest",
+						"saveInvoice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllInvoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invoice/rest/getAllInvoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoice",
+						"rest",
+						"getAllInvoices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOneInvoice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invoice/rest/find/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoice",
+						"rest",
+						"find",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateInvoice",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"amount\": 150.0,\r\n    \"number\": \"Inv0234\",\r\n    \"comments\": \"Paid\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/invoice/rest/modify/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoice",
+						"rest",
+						"modify",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteInvoice",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invoice/rest/remove/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoice",
+						"rest",
+						"remove",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateInvoiceNumberById",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/invoice/rest/modify/1/Inv02346",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"invoice",
+						"rest",
+						"modify",
+						"1",
+						"Inv02346"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
