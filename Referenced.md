@@ -3,7 +3,7 @@
 # Frontend:
 ![React](https://www.iconninja.com/files/332/243/605/react-js-react-logo-js-icon.png)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/301px-Bootstrap_logo.svg.png" alt="drawing" width="64"/>
+<img src="https://www.iconninja.com/files/332/243/605/react-js-react-logo-js-icon.png" alt="react" width="64"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/301px-Bootstrap_logo.svg.png" alt="bootstrap" width="64"/>
 
 
 **Codevolution ReactJS Tutorial:**
