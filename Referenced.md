@@ -1,7 +1,7 @@
 
 
 # Frontend:
-![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+![React](https://www.iconninja.com/files/332/243/605/react-js-react-logo-js-icon.png)
 
 
 **Codevolution ReactJS Tutorial:**
