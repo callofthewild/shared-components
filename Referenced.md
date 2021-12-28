@@ -10,7 +10,6 @@
 
 # Backend:
 
-<img src="https://www.pngitem.com/pimgs/m/19-190809_spring-boot-hd-png-download.png" alt="springboot" width="100"/> 
-<img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png" alt="springboot" width="80"/> 
+<img src="https://www.pngitem.com/pimgs/m/19-190809_spring-boot-hd-png-download.png" alt="springboot" width="100"/> <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png" alt="springboot" width="80"/> 
 
 
